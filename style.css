@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    height: 100vh;
+    width: 100%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #1e5799 0%,#207cca 49%,#7db9e8 100%); 
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#firstDiv{
+    
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+#firstDiv #title{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+#firstDiv #title img{
+    height: 20vh;
+    width: 10%;
+    border-radius: 100%;
+   
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      
+}
+#sociallinks{
+    display: flex;
+    justify-content: center;
+   
+}
+#sociallinks li{
+    list-style: none;
+    font-size: 30px;
+    padding-left: 30px;
+}
+#sociallinks li a{
+    display: inline-block;
+    width: 1.2em;
+    transition: all .2s ease-in-out;
+    
+}
+#sociallinks li a:hover{
+    transform: scale(1.5);
+}
+
+#secondDiv{
+    
+    height: 57vh;
+    width: 100vw;
+    margin-top: 3vh;
+}
+#links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    
+}
+#links li{
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all .2s ease-in-out;
+}
+#links li a{
+   
+    text-decoration: none;
+    color: black;
+    
+    
+}
+#links li:hover{
+    transform: scale(1.1);
+}
+/*-------------------------------About Section--------------------------------------------*/
+#aboutDiv1 {
+    width: 90%;
+    height: 90vh;
+    padding: 50px;
+}
+#aboutDiv1 p{
+    color: black;
+}
+/*-------------------------------skills section----------------------------------------------*/
+.skillscontainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.skillscontainer .skillsDiv{
+    border-radius: 30px;
+    width: 25vw;
+    height: 40vh;
+    background-color: rgb(255, 255, 255,0.5);
+    transition: all 0.4s ease;
+}
+.skillscontainer .skillsDiv:hover{
+    transform: scale(1.1);
+}
+.skillscontainer .skillsDiv .skilltitle{
+    text-align: center;
+    color: black;
+    font-size: 2em;
+}
+.skillscontainer .skillsDiv .list{
+    padding-block: 10px;
+    display: grid;
+    font-size: 1.4em;
+    grid-template-columns: 1fr 28px;
+    justify-content:space-evenly ;
+    padding: 10px;
+
+}
+
+
+
+
+
